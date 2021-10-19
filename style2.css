@@ -1,0 +1,92 @@
+
+.navbarbox{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    height: 70px;
+    width: 950px;
+    background-color: black;
+    color: white;
+    border:  black 2px solid;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.navbar h1{
+    padding-left: 35px;
+}
+.feed{
+    height: 70px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: bold;
+    font-size: 30px;
+}
+
+.pagecontent{
+    height: 750px;
+    display: flex;
+    justify-content: center;
+}
+
+.leftcolumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    padding: 20px;
+    width: 200px;
+    height: 300px;
+    margin-top: 20px;
+    margin-right: 40px;
+    font-size: 25px;
+}
+
+.leftcolumn img{
+    border-radius: 30%;
+    width: 100px;
+}
+
+
+
+.rightside{
+    border: 2px black solid;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.toprow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.likes{
+    display: flex;
+    height: 20px;
+    gap: 30px;
+}
+.likes p{
+    margin: 0px;
+}
+
+.bottomrow{
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.bottomrow2{
+    margin: 20px;
+    width: 355px;
+    height: 50px;
+}
+
