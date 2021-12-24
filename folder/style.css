@@ -1,0 +1,42 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 500px;
+    border: 2px black solid;
+    padding-left: 10px;
+}
+.likes{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 200px;
+}
+#btn{
+    background-color: yellow;
+    height: 25px;
+    border: black 2px solid;
+    box-shadow: 3px 3px;
+    font-weight: bold;
+}
+.toprow{
+    margin: 5px;
+    border: 1px red dashed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.bottomrow{
+    margin: 2px;
+    border: 1px red dashed;
+    display: flex;
+    font-size: 27px;
+}
